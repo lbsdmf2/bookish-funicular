@@ -1,0 +1,71 @@
+/* style.qss - 简单现代风格 */
+* { font-family: "Segoe UI", Roboto, Arial; }
+
+QWidget {
+    background: #f5f7fb;
+    color: #222;
+}
+
+/* Title bar */
+#titleBar {
+    background: qlineargradient(x1:0 y1:0, x2:1 y2:0,
+               stop:0 #4f9bd6, stop:1 #2d6fb3);
+    height: 36px;
+}
+
+#titleLabel {
+    color: white;
+    font-weight: 600;
+    padding-left: 12px;
+}
+
+/* Buttons */
+QPushButton {
+    background: #2d6fb3;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 14px;
+}
+
+QPushButton#ghost {
+    background: rgba(0,0,0,0.06);
+    color: #333;
+}
+
+QPushButton#skipBtn {
+    background: #d3d3d3;
+    color: #111;
+    border-radius: 6px;
+    padding: 6px 10px;
+}
+
+/* Settings area */
+#settingsFrame {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.06);
+}
+
+/* Labels */
+QLabel.title {
+    font-size: 18px;
+    font-weight: 600;
+}
+QLabel.hint {
+    color: #666;
+    font-size: 12px;
+}
+
+/* List */
+QListWidget {
+    background: transparent;
+    border: none;
+}
+
+/* Result */
+#resultLabel {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1e7f3e;
+}
