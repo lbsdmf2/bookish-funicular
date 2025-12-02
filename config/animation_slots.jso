@@ -1,0 +1,15 @@
+{
+    "rare": {
+        "slot1": "assets/animations/sample_rare.mp4"
+    },
+    "normal": {
+        "slot1": "assets/animations/sample_normal.mp4"
+    },
+    "single": {
+        "slot3": "assets/animations/sample_single.mp4"
+    },
+    "enabled": [
+        "slot1",
+        "slot3"
+    ]
+}
